@@ -88,3 +88,23 @@ mv [file1] [file2]                             : moves the file1 to another dest
 rm filename                                    : delete a file
 
 rmdir -r directory                             : delete directory
+
+wc -l t1.txt                                   : To print the line numbers of t1.txt
+
+wc -w t1.txt                                   : To print word count of t1.txt
+
+wc -c t1.txt                                   : To print tottal number of character in file t1.txt
+
+echoo "hello"                                  : will display the given word
+
+echo "good morning" > file1                    : will display the word in that file---> will overwrite 
+
+echo "good day" >>file1                        : will display the currentt word and also the above word----> will nott overwrite
+
+echo $?                                        : to chechk if my previous command has exicuted properly or not
+
+head filename                                  : will display the first 10 lines in the file
+
+tail filename                                  : will display bottom 10 lines
+
+
