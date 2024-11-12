@@ -107,4 +107,17 @@ head filename                                  : will display the first 10 lines
 
 tail filename                                  : will display bottom 10 lines
 
+sort filename	                                 : To sort file in assending order based on the character
+
+sort -n filename	                             : Sort file based on the numerical value
+
+sort -r filename	                             : sort in reverse order
+
+uniq	                                         : to show only uniq values (uniq will always used along with sort. without sort uniq will not work)
+
+sort filename | uniq -c	                       : to display count of the values repeated
+
+sort filename | uniq -d	                       : sort and display only duplicate values
+
+sort -k1 -n filename                          : to sort the values based on the coulmn values
 
