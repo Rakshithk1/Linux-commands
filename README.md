@@ -1,4 +1,4 @@
-# Dev-ops
+# Linux commands
 uname            : To check OS
 
 uame -r          : to check OS version
